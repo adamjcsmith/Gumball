@@ -7,7 +7,7 @@
 img { border: none; }
 html, body { min-height: 100%; }
 
-/* ---------- Clear-Fix ---------- */
+/* ---------- Clear-Fixes ---------- */
 
 .cf:before, .cf:after, .grid:before, .grid:after , .navbar:before, .navbar:after{ content: " "; display: table; }
 .cf:after, .grid:after, .navbar:after { clear: both; }
@@ -41,6 +41,7 @@ html, body { min-height: 100%; }
 a { color: #009092; text-decoration: none; }
 a:hover { text-decoration: underline; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; }
+h1 { font-size: 60px; }
 
 /* ---------- Divisions ---------- */
 
@@ -56,14 +57,20 @@ hr { border: none; background: #ccc; height: 2px; margin: 0 20px; }
 .d66 { width: 66.66%; }
 .d75 { width: 75%; }
 .d80 { width: 80%; }
-.d100 { width: 100%;}
+.d100 { width: 100%; }
 .gap { margin-top: 10px; }
-.in { width: 100%; height: 100%; }
 [class^='d'] { float: left; padding-right: 20px; }
 [class^='d']:last-of-type { padding-right: 0; }
 .grid { width: 100%; position: relative; padding: 0 0 0 20px; }
 .grid > [class*='d']:last-of-type { padding-right: 20px; }
 .grid li { list-style: none; }
+.one { padding-right: 20px; }
+
+.callbox {
+	background-color: steelblue;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
 
 /* ---------- Navigation ---------- */
 
