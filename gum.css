@@ -64,7 +64,6 @@ hr { border: none; background: #ccc; height: 2px; margin: 0 20px; }
 .grid { width: 100%; position: relative; padding: 0 0 0 20px; }
 .grid > [class*='d']:last-of-type { padding-right: 20px; }
 .grid li { list-style: none; }
-.one { padding-right: 20px; }
 
 .callbox {
 	background-color: steelblue;
