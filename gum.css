@@ -29,13 +29,6 @@ html, body { min-height: 100%; }
 .p20 { padding: 20%; }
 .p25 { padding: 25%; }
 
-/* ---------- Appearance ----------*/
-
-.dim { color: #5e5e5e; }
-.dimmer { color: #ccc; }
-.thin { font-weight: 300; }
-.fat { font-weight: 600; }
-
 /* ---------- Text ---------- */
 
 a { color: #009092; text-decoration: none; }
@@ -83,6 +76,13 @@ nav ul:hover { background: #fff; }
 nav ul li ul li { clear: both; border-bottom: 5px solid black; }
 nav li:hover > a { background: rgba(0,0,0,0.05); }
 nav li:hover > ul { transition: opacity .30s ease; opacity: 1; visibility: visible; }
+
+/* ---------- Appearance ----------*/
+
+.dim { color: #5e5e5e; }
+.dimmer { color: #ccc; }
+.thin { font-weight: 300; }
+.fat { font-weight: 600; }
 
 /* ---------- Media Queries ---------- */
 
