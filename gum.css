@@ -56,7 +56,7 @@ hr { border: none; background: #ccc; height: 2px; margin: 0 20px; }
 .grid { width: 100%; position: relative; padding: 0 0 0 20px; }
 .grid > [class*='d']:last-of-type { padding-right: 20px; }
 .grid li { list-style: none; }
-.callbox { padding-top: 20%; padding-bottom: 20%; }
+.callbox { padding-top: 15%; padding-bottom: 15%; }
 
 /* ---------- Navigation ---------- */
 
