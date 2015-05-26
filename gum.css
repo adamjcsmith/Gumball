@@ -14,8 +14,10 @@ html, body { min-height: 100%; }
 
 /* ---------- Position ---------- */
 
-.l { float: left; }
-.r { float: right; }
+.fl { float: left; }
+.fr { float: right; }
+.l { text-align: left; }
+.r { text-align: right; }
 .c { text-align: center; }
 .m2 { margin: 2%; } .mt2 { margin-top: 2%; } .mr2 { margin-right: 2%; } .mb2 { margin-bottom: 2%; } .ml2 { margin-left: 2%; }
 .m5 { margin: 5%; } .mt5 { margin-top: 5%; } .mr5 { margin-right: 5%; } .mb5 { margin-bottom: 5%; } .ml5 { margin-left: 5%; }
