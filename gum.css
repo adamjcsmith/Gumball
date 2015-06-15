@@ -14,6 +14,7 @@ html, body { min-height: 100%; }
 
 /* ---------- Position ---------- */
 
+.ib { display: inline-block; }
 .fl { float: left; }
 .fr { float: right; }
 .l { text-align: left; }
@@ -36,6 +37,7 @@ a { color: #009092; text-decoration: none; }
 a:hover { text-decoration: underline; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; }
 h1 { font-size: 60px; }
+.u { text-decoration: underline; }
 
 /* ---------- Divisions ---------- */
 
@@ -79,6 +81,16 @@ nav li:hover > ul { transition: opacity .30s ease; opacity: 1; visibility: visib
 .dimmer { color: #ccc; }
 .thin { font-weight: 300; }
 .fat { font-weight: 600; }
+
+/* ---------- Additional UI ---------- */
+
+.triangle {
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid $inactive;
+	display: inline-block;
+	margin: 0 0 2px 5px;
+}
 
 /* ---------- Media Queries ---------- */
 
