@@ -87,7 +87,7 @@ nav li:hover > ul { transition: opacity .30s ease; opacity: 1; visibility: visib
 .triangle {
 	border-left: 6px solid transparent;
 	border-right: 6px solid transparent;
-	border-top: 6px solid $inactive;
+	border-top: 6px solid #5e5e5e;
 	display: inline-block;
 	margin: 0 0 2px 5px;
 }
