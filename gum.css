@@ -136,6 +136,7 @@ nav li:hover > ul { transition: opacity .30s ease; opacity: 1; visibility: visib
 @media (max-width: 300px) {
 	.d10 { width: 50%; }
 	.d20 { width: 100%; }	
+	.d50 { width: 100%; }
 }
 
 @media (max-width: 200px) {
