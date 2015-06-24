@@ -46,7 +46,7 @@ h3 { font-size: 1.1vw; }
 
 /* ---------- Divisions ---------- */
 
-hr { border: none; background: #ccc; height: 2px; margin: 0 20px; }
+hr { border: none; background: #ccc; height: 1px; margin: 0 20px; }
 .box { max-width: 100%; margin: 0 auto; }
 .d10 { width: 10%; }
 .d20 { width: 20%; }
