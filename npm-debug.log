@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\Users\\Adam\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@2.8.4
+3 info using node@v0.10.35
+4 verbose stack Error: ENOENT, open 'C:\Users\Adam\OneDrive\Documents\Gumball\package.json'
+5 verbose cwd C:\Users\Adam\OneDrive\Documents\Gumball
+6 error Windows_NT 6.2.9200
+7 error argv "node" "C:\\Users\\Adam\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+8 error node v0.10.35
+9 error npm  v2.8.4
+10 error path C:\Users\Adam\OneDrive\Documents\Gumball\package.json
+11 error code ENOENT
+12 error errno 34
+13 error enoent ENOENT, open 'C:\Users\Adam\OneDrive\Documents\Gumball\package.json'
+13 error enoent This is most likely not a problem with npm itself
+13 error enoent and is related to npm not being able to find a file.
+14 verbose exit [ 34, true ]

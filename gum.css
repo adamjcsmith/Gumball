@@ -38,6 +38,12 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; }
 h1 { font-size: 60px; }
 .u { text-decoration: underline; }
 
+/* ---------- Elastic Fonts (Experimental) ---------- */
+
+h1 { font-size: 5.9vw; }
+h2 { font-size: 3.0vw; }
+h3 { font-size: 1.1vw; }
+
 /* ---------- Divisions ---------- */
 
 hr { border: none; background: #ccc; height: 2px; margin: 0 20px; }
