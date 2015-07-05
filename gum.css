@@ -86,7 +86,7 @@ nav ul li ul li { clear: both; border-bottom: 5px solid black; }
 nav li:hover > a { background: rgba(0,0,0,0.05); }
 nav li:hover > ul { transition: opacity .30s ease; opacity: 1; visibility: visible; }
 
-#nav-icon {	height: 40px; width: 40px; display: none; background: #009092; margin: 5px; }
+#nav-icon {	min-height: 35px; min-width: 45px; margin: 10px; padding: 10px; display: none; background: #009092; color: white; }
 
 /* ---------- Appearance ---------- */
 
