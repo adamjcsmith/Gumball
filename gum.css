@@ -50,7 +50,7 @@ h6 { font-size: 1.8vw; }
 /* ---------- Divisions ---------- */
 
 hr { border: none; background: #ccc; height: 1px; margin: 0 20px; }
-.box { max-width: 100%; margin: 0 auto; }
+section { max-width: 100%; margin: 0 auto; }
 .d10 { width: 10%; }
 .d20 { width: 20%; }
 .d25 { width: 25%; }
