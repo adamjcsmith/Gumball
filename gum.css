@@ -35,14 +35,17 @@ html, body { min-height: 100%; }
 a { color: #009092; text-decoration: none; }
 a:hover { text-decoration: underline; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; }
-h1 { font-size: 60px; }
 .u { text-decoration: underline; }
+p { font-size: 18px; }
 
 /* ---------- Elastic Fonts (Experimental) ---------- */
 
 h1 { font-size: 5.9vw; }
-h2 { font-size: 3.0vw; }
-h3 { font-size: 1.1vw; }
+h2 { font-size: 4.4vw; }
+h3 { font-size: 3.5vw; }
+h4 { font-size: 2.8vw; }
+h5 { font-size: 2.4vw; }
+h6 { font-size: 1.8vw; }
 
 /* ---------- Divisions ---------- */
 
@@ -107,6 +110,7 @@ nav li:hover > ul { transition: opacity .30s ease; opacity: 1; visibility: visib
 /* ---------- Media Queries ---------- */
 
 @media (max-width: 1000px) {
+/*
 	.d10 { width: 10%; }
 	.d20 { width: 20%; }
 	.d25 { width: 25%; }
@@ -117,16 +121,21 @@ nav li:hover > ul { transition: opacity .30s ease; opacity: 1; visibility: visib
 	.d66 { width: 66.66%; }
 	.d75 { width: 75%; }
 	.d80 { width: 80%; }
+	*/
 }
 
 @media (max-width: 900px) {
 	.d10 { width: 11.11%; }
+	
+	p { font-size: 17px; }
 }
 
 @media (max-width: 800px) {
 	.d10 { width: 12.5%; }
 	.d20 { width: 25%; }
 	.d80 { width: 100%; }
+	
+	p { font-size: 16px; }
 }
 
 @media (max-width: 750px) {
@@ -136,11 +145,14 @@ nav li:hover > ul { transition: opacity .30s ease; opacity: 1; visibility: visib
 
 @media (max-width: 700px) {
 	.d10 { width: 14.28%; }
+	
+	p { font-size: 15px; }
 }
 
 @media (max-width: 667px) {
 	.d33 { width: 50%; }
 	.d66 { width: 100%; }
+	
 	#nav-icon { display: inline-block; }
 	nav { display: none; top: 100%; width: 100%; left: 0; }
 	.navbar:hover nav { display: inline-block; }
@@ -152,18 +164,24 @@ nav li:hover > ul { transition: opacity .30s ease; opacity: 1; visibility: visib
 	.d10 { width: 16.66%; }
 	.d20 { width: 33.33%; }
 	.d60 { width: 100%; }
+	
+	p { font-size: 14px; }
 }
 
 @media (max-width: 500px) {
 	.d10 { width: 20%; }
 	.d25 { width: 50%; }
 	.d50 { width: 100%; }
+	
+	p { font-size: 13px; }
 }
 
 @media (max-width: 400px) {
 	.d10 { width: 25%; }
 	.d20 { width: 50%; }
 	.d40 { width: 100%; }
+	
+	p { font-size: 12px; }
 }
 
 @media (max-width: 333px) {
@@ -172,6 +190,8 @@ nav li:hover > ul { transition: opacity .30s ease; opacity: 1; visibility: visib
 
 @media (max-width: 300px) {
 	.d10 { width: 33.33%; }
+	
+	p { font-size: 11px; }
 }
 
 @media (max-width: 250px) {
