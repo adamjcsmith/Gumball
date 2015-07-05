@@ -8,8 +8,8 @@ html, body { min-height: 100%; }
 
 /* ---------- Clear-Fixes ---------- */
 
-.cf:before, .cf:after, .grid:before, .grid:after , .navbar:before, .navbar:after { content: " "; display: table; }
-.cf:after, .grid:after, .navbar:after { clear: both; }
+.cf:before, .cf:after, .grid:before, .grid:after , header:before, header:after { content: " "; display: table; }
+.cf:after, .grid:after, header:after { clear: both; }
 
 /* ---------- Position ---------- */
 
@@ -75,7 +75,7 @@ hr { border: none; background: #ccc; height: 1px; margin: 0 20px; }
 
 /* ---------- Navigation ---------- */
 
-.navbar { width: 100%; position: relative; }
+header { width: 100%; position: relative; }
 nav { position: relative; z-index: 99; }
 nav li { float: left; list-style: none; display: inline; }
 nav li a { line-height: 1em; padding: 1.2em; float: left; list-style: none; width: 100%; }
@@ -155,7 +155,7 @@ nav li:hover > ul { transition: opacity .30s ease; opacity: 1; visibility: visib
 	
 	#nav-icon { display: inline-block; }
 	nav { display: none; top: 100%; width: 100%; left: 0; }
-	.navbar:hover nav { display: inline-block; }
+	header:hover nav { display: inline-block; }
 	nav li { width: 100%; }
 	nav li:hover > ul { position: relative; top: 0; width: 100%; }
 }
