@@ -121,7 +121,9 @@ footer { bottom: 0; left: 0; right: 0; position: absolute; }
 @media (max-width: 900px) {
 	.d10 { width: 11.11%; }
 	
-	.full { width: 100%; padding-right: 0;  }	
+	.full { width: 100%; padding-right: 0;  }
+	.m-hide { display: none; }
+	.m-show { display: inline; }	
 	
 	p { font-size: 17px; }
 }
@@ -132,9 +134,7 @@ footer { bottom: 0; left: 0; right: 0; position: absolute; }
 	.d80 { width: 100%; }
 	
 	.full { width: 100%; padding-right: 0;  }
-	.m-hide { display: none; }
-	.m-show { display: inline; }
-	
+
 	p { font-size: 16px; }
 }
 
@@ -147,10 +147,10 @@ footer { bottom: 0; left: 0; right: 0; position: absolute; }
 
 @media (max-width: 700px) {
 	.d10 { width: 14.28%; }
+		
+	.full { width: 100%; padding-right: 0;  }		
 	
 	p { font-size: 15px; }
-	
-	.full { width: 100%; padding-right: 0;  }	
 }
 
 @media (max-width: 667px) {
