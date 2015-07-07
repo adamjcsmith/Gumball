@@ -13,6 +13,7 @@ html, body { min-height: 100%; }
 
 /* ---------- Position ---------- */
 
+.m-show { display: none; }
 .ib { display: inline-block; }
 .fl { float: left; }
 .fr { float: right; }
@@ -49,7 +50,7 @@ h6 { font-size: 1.8vw; }
 
 /* ---------- Divisions ---------- */
 
-hr { border: none; background: #f2f2f2; height: 1px; margin: 0 20px; }
+hr { border: none; background: #ccc; height: 1px; margin: 0 20px; }
 section { max-width: 100%; margin: 0 auto; }
 .d10 { width: 10%; }
 .d20 { width: 20%; }
@@ -120,6 +121,8 @@ footer { bottom: 0; left: 0; right: 0; position: absolute; }
 @media (max-width: 900px) {
 	.d10 { width: 11.11%; }
 	
+	.full { width: 100%; padding-right: 0;  }	
+	
 	p { font-size: 17px; }
 }
 
@@ -128,23 +131,33 @@ footer { bottom: 0; left: 0; right: 0; position: absolute; }
 	.d20 { width: 25%; }
 	.d80 { width: 100%; }
 	
+	.full { width: 100%; padding-right: 0;  }
+	.m-hide { display: none; }
+	.m-show { display: inline; }
+	
 	p { font-size: 16px; }
 }
 
 @media (max-width: 750px) {
 	.d25 { width: 33.33% }
 	.d75 { width: 100%; }
+	
+	.full { width: 100%; padding-right: 0;  }		
 }
 
 @media (max-width: 700px) {
 	.d10 { width: 14.28%; }
 	
 	p { font-size: 15px; }
+	
+	.full { width: 100%; padding-right: 0;  }	
 }
 
 @media (max-width: 667px) {
 	.d33 { width: 50%; }
 	.d66 { width: 100%; }
+	
+	.full { width: 100%; padding-right: 0;  }	
 	
 	#nav-icon { display: inline-block; }
 	nav { display: none; top: 100%; width: 100%; left: 0; }
@@ -158,6 +171,8 @@ footer { bottom: 0; left: 0; right: 0; position: absolute; }
 	.d20 { width: 33.33%; }
 	.d60 { width: 100%; }
 	
+	.full { width: 100%; padding-right: 0;  }		
+	
 	p { font-size: 14px; }
 }
 
@@ -166,6 +181,8 @@ footer { bottom: 0; left: 0; right: 0; position: absolute; }
 	.d25 { width: 50%; }
 	.d50 { width: 100%; }
 	
+	.full { width: 100%; padding-right: 0;  }	
+		
 	p { font-size: 13px; }
 }
 
@@ -174,28 +191,41 @@ footer { bottom: 0; left: 0; right: 0; position: absolute; }
 	.d20 { width: 50%; }
 	.d40 { width: 100%; }
 	
+	.full { width: 100%; padding-right: 0;  }	
+	
 	p { font-size: 12px; }
 }
 
 @media (max-width: 333px) {
 	.d33 { width: 100%; }
+	
+	.full { width: 100%; padding-right: 0;  }	
+		
 }
 
 @media (max-width: 300px) {
 	.d10 { width: 33.33%; }
+
+	.full { width: 100%; padding-right: 0;  }		
 	
 	p { font-size: 11px; }
 }
 
 @media (max-width: 250px) {
 	.d25 { width: 100%; }
+	
+	.full { width: 100%; padding-right: 0;  }	
 }
 
 @media (max-width: 200px) {
 	.d10 { width: 50%; }
 	.d20 { width: 100%; }
+	
+	.full { width: 100%; padding-right: 0;  }		
 }
 
 @media (max-width: 100px) {
 	.d10 { width: 100%; }
+	
+	.full { width: 100%; padding-right: 0;  }	
 }
